@@ -7,5 +7,7 @@ public class TestaFor {
 			System.out.println(contador);
 		}
 		System.out.println(contador);
+		//Testando Git...
+		//Outro Teste de Git...
 	}
 }
