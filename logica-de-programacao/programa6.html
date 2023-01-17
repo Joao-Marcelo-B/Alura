@@ -33,7 +33,7 @@
         var x = evento.pageX - tela.offsetLeft;
         var y = evento.pageY - tela.offsetTop;
 
-        if(desenha) {
+        if(desenha && podeDesenharNaTela(x - 5, y - 5)) {
 
             desenhaCirculo(x, y, 5, corAtual);
         }
@@ -47,6 +47,31 @@
     function desabilitaDesenhar() {
 
         desenha = false;
+    }
+
+    function mudaCorDaBolinha(evento) {
+
+        var x = evento.pageX - tela.offsetLeft;
+        var y = evento.pageY - tela.offsetTop;
+
+        if(y > yQuadrados && y  < yQuadrados + tamanhoQuadrados) {
+            if(x > xVermelho && x < xVermelho + tamanhoQuadrados) {
+                corAtual = 'red'
+            } else if(x > xVerde && x < xVerde + tamanhoQuadrados) {
+                corAtual = 'green'
+            } else if(x > xAzul && x < xAzul + tamanhoQuadrados) {
+                corAtual = 'blue';
+            }
+        }
+    }
+
+    function podeDesenharNaTela(x, y) {
+
+        if(x >= 0 && x < 3*tamanhoQuadrados && y >= 0 && y < tamanhoQuadrados) {
+            return false;
+        } else {
+            return true;
+        }
     }
 
     var tela = document.querySelector('canvas');
@@ -70,4 +95,5 @@
 
     tela.onmouseup = desabilitaDesenhar;
 
+    tela.onclick = mudaCorDaBolinha;
 </script>

@@ -1,33 +1,22 @@
-<canvas width="600" height="400"></canvas>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Curso HTML e CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<script>
-  var tela = document.querySelector('canvas');
-  var pincel = tela.getContext('2d');
-  pincel.fillStyle = 'lightgray';
-  pincel.fillRect(0, 0, 600, 400);
-
-  function desenhaCirculo(x, y, raio) {
-    pincel.fillStyle = 'blue';
-    pincel.beginPath();
-    pincel.arc(x, y, raio, 0, 2 * Math.PI);
-    pincel.fill();
-  }
-
-  function limpaTela() {
-    pincel.clearRect(0, 0, 600, 400);
-  }
-  var x = 20;
-  var sentido = 1;
-
-  function atualizaTela() {
-    limpaTela();
-    if (x > 600) {
-      sentido = -1;
-    } else if (x < 0) {
-      sentido = 1;
-    }
-    desenhaCirculo(x, 20, 10);
-    x = x + sentido;
-  }
-  setInterval(atualizaTela, 10);
-</script>
+  <main>
+    <h1>Eleve seu negócio digital a outro nível
+      <strong>com um Front-end de qualidade!</strong></h1>
+    <p>Olá! Sou Joana Santos, desenvolvedora Front-end com especialidade em <strong>React, HTML e CSS</strong>. Ajudo pequenos negócios e designers a colocarem em prática boas ideias. Vamos conversar?</p>
+    <a href="https://instagram.com">instagram</a>
+    <a href="https://github.com">GitHub</a>
+    <img src="imagem.png" alt="Foto da Joana Santos programando">
+  </main>
+  
+</body>
+</html>
