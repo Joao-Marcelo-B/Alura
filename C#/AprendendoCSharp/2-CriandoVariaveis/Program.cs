@@ -5,8 +5,13 @@ class Programa
     static void Main(string[] args)
     {
         int idade;
-        char nome = 'Ola Mundo';
         idade = 19;
-        Console.WriteLine(nome);
+        Console.WriteLine(idade);
+
+        double salario = 1312.73;
+        Console.WriteLine(salario);
+
+        Console.WriteLine("Pressiona qualquer tecla para fechar ...");
+        Console.ReadLine();
     }
 }
