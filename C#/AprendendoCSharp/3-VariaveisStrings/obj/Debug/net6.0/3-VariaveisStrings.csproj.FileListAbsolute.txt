@@ -1,0 +1,15 @@
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\bin\Debug\net6.0\3-VariaveisStrings.exe
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\bin\Debug\net6.0\3-VariaveisStrings.deps.json
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\bin\Debug\net6.0\3-VariaveisStrings.runtimeconfig.json
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\bin\Debug\net6.0\3-VariaveisStrings.dll
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\bin\Debug\net6.0\3-VariaveisStrings.pdb
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.csproj.AssemblyReference.cache
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.AssemblyInfoInputs.cache
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.AssemblyInfo.cs
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.csproj.CoreCompileInputs.cache
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.dll
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\refint\3-VariaveisStrings.dll
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.pdb
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\3-VariaveisStrings.genruntimeconfig.cache
+C:\Projetos Git\Alura\C#\AprendendoCSharp\3-VariaveisStrings\obj\Debug\net6.0\ref\3-VariaveisStrings.dll
